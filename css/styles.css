@@ -2,11 +2,11 @@
 body {
   /* Typography */
   font-family: 'Roboto Mono';
+  
 
   /* Visual */
   background-image: url("https://www.etftrends.com/wp-content/uploads/2020/01/Consumers-Embracing-New-Tech-Could-Lift-IoT-ETF.jpg");
-  
-}
+  }
 
 html {
   /* Positioning */
@@ -21,11 +21,44 @@ main {
   margin: 80px 0;
 }
 
+/* NAVBAR START */
+#logo {
+  font-family: 'Roboto Mono';
+
+  /* Typography JA*/
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+
+  /* Visual */
+
+}
+
+/* override bootstrap hover color and border */
+.navbar-default .navbar-nav > li > a:hover {
+  color: transparent
+}
+
+.navbar {
+  background-color: black;
+  border: none;
+}
+
+
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: black;
+  }
+}
+/* END NAV */
+
 /* create styles for use for all white main boxes */
 .block {
   background-color: rgb(233, 233, 233);
   padding: 30px;
   margin-bottom: 30px;
+  align-content: center;
 }
 
 .block-header {
@@ -33,39 +66,8 @@ main {
   color: black;
   font-family: 'Roboto Mono';
   font-weight: bold;
+  
 }
-
-/* NAV START */
-#logo {
-  font-family: 'Roboto Mono';
-
-  /* Typography JA*/
-  font-size: 24px;
-  font-weight: bold;
-  color: White;
-
-  /* Visual */
-  background: gray;
-}
-
-/* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
-  color: blue;
-}
-
-.navbar {
-  background: blue;
-  border: none;
-}
-
-/* media query for nav background color change */
-@media only screen and (max-width: 767px) {
-  .navbar-header {
-    background-color: blue;
-  }
-}
-/* END NAV */
-
 
 /* CONNECT W/ ME CSS */
 .connect-header {
@@ -82,11 +84,13 @@ main {
 #images {
   /* Box-model */
   padding-top: 15px;
+  align-content: center;
 
   /* Typography */
   text-align: center;
 }
 /* END CONNECT W/ ME */
+
 
 /* --- PAGE-SPECIFIC STYLES --- */
 /* ABOUT-ME PAGE */
@@ -138,7 +142,7 @@ main {
   font-weight: lighter;
 
   /* Typography */
-  color: white;
+  color: green;
 
   /* Visual */
   background-color: black;
@@ -148,8 +152,8 @@ main {
 .submit-btn:hover {
   opacity: .7;
 }
-
 /* END CONTACT FORM PAGE */
+
 
 /* BEGIN FOOTER */
 .footer {
@@ -184,3 +188,4 @@ main {
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
+
