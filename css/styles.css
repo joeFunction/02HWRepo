@@ -23,14 +23,13 @@ main {
 
 /* create styles for use for all white main boxes */
 .block {
-  background-color: #fff;
-
+  background-color: rgb(233, 233, 233);
   padding: 30px;
   margin-bottom: 30px;
 }
 
 .block-header {
-  /* Typography */
+  /* Typography Contact */
   color: black;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
@@ -40,29 +39,29 @@ main {
 #logo {
   font-family: Georgia, Times, "Times New Roman", serif;
 
-  /* Typography */
+  /* Typography JA*/
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
+  color: White;
 
   /* Visual */
-  background: #4aaaa5;
+  background: gray;
 }
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: white;
+  color: blue;
 }
 
 .navbar {
-  background: black;
+  background: blue;
   border: none;
 }
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: black;
+    background-color: blue;
   }
 }
 /* END NAV */
@@ -109,7 +108,7 @@ main {
   margin-top: 15px;
 
   /* Typography */
-  color: white;
+  color: black;
 }
 
 .two-toned-footer-color {
