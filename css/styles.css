@@ -58,7 +58,8 @@ main {
   background-color: rgb(233, 233, 233);
   padding: 30px;
   margin-bottom: 30px;
-  align-content: center;
+  
+  
 }
 
 .block-header {
@@ -85,6 +86,7 @@ main {
   /* Box-model */
   padding-top: 15px;
   align-content: center;
+  
 
   /* Typography */
   text-align: center;
@@ -120,6 +122,7 @@ main {
 /* PORTFOLIO PAGE */
 .port-image {
   margin: 30px auto;
+  
 }
 /* END PORTFOLIO PAGE */
 
