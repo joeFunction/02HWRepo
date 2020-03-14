@@ -2,7 +2,6 @@
 body {
   /* Typography */
   font-family: 'Roboto Mono';
-  
 
   /* Visual */
   background-image: url("https://www.etftrends.com/wp-content/uploads/2020/01/Consumers-Embracing-New-Tech-Could-Lift-IoT-ETF.jpg");
@@ -24,14 +23,10 @@ main {
 /* NAVBAR START */
 #logo {
   font-family: 'Roboto Mono';
-
   /* Typography JA*/
   font-size: 24px;
   font-weight: bold;
-  color: black;
-
-  /* Visual */
-
+  color: grey
 }
 
 /* override bootstrap hover color and border */
@@ -44,13 +39,13 @@ main {
   border: none;
 }
 
-
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
     background-color: black;
   }
 }
+
 /* END NAV */
 
 /* create styles for use for all white main boxes */
@@ -58,7 +53,7 @@ main {
   background-color: rgb(233, 233, 233);
   padding: 30px;
   margin-bottom: 30px;
-  
+  position: sticky;
   
 }
 
@@ -85,14 +80,9 @@ main {
 #images {
   /* Box-model */
   padding-top: 15px;
-  align-content: center;
-  
-
-  /* Typography */
-  text-align: center;
 }
-/* END CONNECT W/ ME */
 
+/* END CONNECT W/ ME */
 
 /* --- PAGE-SPECIFIC STYLES --- */
 /* ABOUT-ME PAGE */
@@ -118,14 +108,12 @@ main {
 }
 /* END ABOUT-ME PAGE */
 
-
 /* PORTFOLIO PAGE */
 .port-image {
   margin: 30px auto;
   
 }
 /* END PORTFOLIO PAGE */
-
 
 /* CONTACT FORM PAGE  */
 
@@ -187,8 +175,8 @@ main {
 
   /* Visual */
   background-color: black;
-  
 }
+
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
 
